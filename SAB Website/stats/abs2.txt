@@ -1,0 +1,11 @@
+Order	Book			Abr.	Testament	verses	Absurdity
+1	Genesis		Gen.	Old		1533		87
+2	Exodus		Ex.	Old		1213		57
+3	Leviticus		Lev.	Old		859		45
+4	Numbers		Num.	Old		1288		34
+5	Deuteronomy		Dt.	Old		959		46
+6	Joshua		Jos.	Old		658		10
+7	Judges 		Jg.	Old		618		32
+8	Ruth			Ruth	Old		85		0
+9	1Samuel		1Sam.	Old		810		24
+

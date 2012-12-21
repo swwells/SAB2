@@ -1,0 +1,73 @@
+
+ body {background: #FFFFF8;
+      font-family: Helvetica, Univers, sans-serif} 
+       
+  span.a {font-style: italic}
+           
+  span.c {color: black;
+           background-color: #FFC}
+
+          
+  span.changes {color: black;
+           background-color: #FFC}
+     
+          
+  span.f {color: black;
+           background-color: #FFC}
+       
+          
+  span.g  {color: black;
+           background-color: #FFC}
+
+            
+  span.h  {color: black;
+           background-color: #FFC}
+      
+          
+  span.i {color: black;
+           background-color: #FFC}
+           
+  span.int {color: black;
+           background-color: #FFC}
+
+           
+  span.interp {color: black;
+           background-color: #FFC}
+       
+
+  span.l {color: black;
+           background-color: #FFC}
+
+          
+  span.p  {color: black;
+           background-color: #FFC}
+
+            
+  span.plag{color: black;
+           background-color: #FFC}
+      
+
+  span.s {color: black;
+           background-color: #FFC}
+
+          
+  span.sci  {color: black;
+           background-color: #FFC}
+
+
+  span.v {color: black;
+           background-color: #FFC}
+
+              
+  span.w {color: black;
+           background-color: #FFC}
+
+                                     
+  A:link {color: #00B;
+          text-decoration: none;}
+          
+  A:visited {color: #008;
+             text-decoration: none;}
+             
+  A:active {color: brown;
+            text-decoration: underline;}

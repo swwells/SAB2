@@ -1,0 +1,200 @@
+<html>
+<body>
+
+<p><b>Joel</b>
+<br><font size="-1">
+<a href="intro.html">Introduction</a>
+<p>
+<font size="-1">
+<a href="1.html">1</a> <a href="2.html">2</a> 
+<a href="3.html">3</a> 
+
+</font>
+
+<hr align="left" width="150" align="left">
+
+<font size="-1">
+<img src="../images/abs1.gif"    height="20"> <a href="abs_list.html">    <span class="a">Absurdities</a></span><br>
+<img src="../images/inj1.gif"    height="20"> <a href="inj_list.html">    <span class="i">Injustice</a></span> <br>
+<img src="../images/cr1.gif"     height="20"> <a href="cr_list.html">     <span class="v">Cruelty and Violence</a></span> <br>
+<img src="../images/sci1.gif"    height="20"> <a href="sci_list.html">    <span class="sci">Science and History</a></span> <br>
+<img src="../images/contra1.gif" height="20"> <a href="contra_list.html"> <span class="c">Contradictions</a></span><br>
+<img src="../images/fv.gif"      height="20"> <a href="fv_list.html">     <span class="f">Family Values</a></span> <br>
+<img src="../images/pr1.gif"     height="20"> <a href="pr_list.html">     <span class="p">Prophecy</a></span> <br>
+<img src="../images/interp.gif"  height="20"> <a href="interp_list.html"> <span class="c">Interpretation</a></span> <br>
+<img src="../images/int.gif"     height="20"> <a href="int_list.html"    <span class="int">Intolerance</a></span> <br>
+<img src="../images/good1.gif"   height="20"> <a href="good_list.html">   <span class="g">Good Stuff</a></span> <br>
+
+
+<!--
+<img src="../images/wom1.gif"    height="20"> <a href="wom_list.html"    class="w">Women</a> <br>
+<img src="../images/sex1.gif"    height="20"> <a href="sex_list.html"    class="s">Sex</a> <br>
+
+-->
+</font>
+
+<hr width="150" align="left">
+<p>
+<!--webbot bot="Include" U-Include="../TheBook/ad_countdown.html" TAG="BODY" startspan -->
+
+<table>
+<tr><td>
+<html>
+<head>
+<style type="text/css">
+.numbers {
+    padding: 0px;
+    width: 45px;
+    text-align: center;
+    font-family: Arial;             
+    font-size: 14px;
+    font-weight: normal;   /* options are normal, bold, bolder, lighter */
+    font-style: normal;  /* options are normal or italic */
+    color: #000000;      /* change color using the hexadecimal color codes for HTML */
+}
+.title {        /* the styles below will affect the title under the numbers, i.e., “Days”, “Hours”, etc. */
+    border-style: none;
+    padding: 0px 0px 3px 0px;
+    width: 45px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;   /* options are normal, bold, bolder, lighter */
+    color: #000000;      /* change color using the hexadecimal color codes for HTML */
+}
+#table {
+    width: 200px;
+    height: 70px;
+    border-style: ridge;
+    border-width: 0px;
+    border-color: #FFFFFF;      /* change color using the hexadecimal color codes for HTML */
+    background-color: #FFFFFF;  /* change color using the hexadecimal color codes for HTML */
+}
+</style>
+</head>
+
+<body>
+<table id="table" border="0">
+    <tr>
+        <td align="left" colspan="6"><div class="numbers" id="count2" style="padding: 1px 0 0 0; "></div></td>
+    </tr>
+    <tr id="spacer1">
+        <td align="left" ><div class="numbers" id="dday"></div></td>
+        <td align="left" ><div class="numbers" id="dhour"></div></td>
+        <td align="left" ><div class="numbers" id="dmin"></div></td>
+        <td align="left" ><div class="numbers" id="dsec"></div></td>
+    </tr>
+    <tr id="spacer2">
+        
+        <td align="left" ><div class="title" id="days">Days</div></td>
+        <td align="left" ><div class="title" id="hours">Hours</div></td>
+        <td align="left" ><div class="title" id="minutes">Minutes</div></td>
+        <td align="left" ><div class="title" id="seconds">Seconds</div></td>
+    </tr>
+</table>
+
+<script type="text/javascript">
+
+/*
+Count down until any date script-
+By JavaScript Kit (www.javascriptkit.com)
+Over 200+ free scripts here!
+Modified by Robert M. Kuhnhenn, D.O. 
+on 5/30/2006 to count down to a specific date AND time,
+and on 1/10/2010 to include time zone offset.
+*/
+
+/*  Change the items below to create your countdown target date and announcement once the target date and time are reached.  */
+var current="Skeptic's Annotated Bible is now available!";        //—>enter what you want the script to display when the target date and time are reached, limit to 20 characters
+var year=2013;              //—>Enter the count down target date YEAR
+var month=1;                //—>Enter the count down target date MONTH
+var day=7;                 //—>Enter the count down target date DAY
+var hour=00;                //—>Enter the count down target date HOUR (24 hour clock)
+var minute=01;              //—>Enter the count down target date MINUTE
+var tz=-7;                  //—>Offset for your timezone in hours from UTC (see http://wwp.greenwichmeantime.com/index.htm to find the timezone offset for your location)
+
+//—>    DO NOT CHANGE THE CODE BELOW!    <—
+var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");
+
+function countdown(yr,m,d,hr,min){
+theyear=yr;themonth=m;theday=d;thehour=hr;theminute=min;
+var today=new Date();
+var todayy=today.getYear();
+if (todayy < 1000) {todayy+=1900;}
+var todaym=today.getMonth();
+var todayd=today.getDate();
+var todayh=today.getHours();
+var todaymin=today.getMinutes();
+var todaysec=today.getSeconds();
+var todaystring1=montharray[todaym]+" "+todayd+", "+todayy+" "+todayh+":"+todaymin+":"+todaysec;
+var todaystring=Date.parse(todaystring1)+(tz*1000*60*60);
+var futurestring1=(montharray[m-1]+" "+d+", "+yr+" "+hr+":"+min);
+var futurestring=Date.parse(futurestring1)-(today.getTimezoneOffset()*(1000*60));
+var dd=futurestring-todaystring;
+var dday=Math.floor(dd/(60*60*1000*24)*1);
+var dhour=Math.floor((dd%(60*60*1000*24))/(60*60*1000)*1);
+var dmin=Math.floor(((dd%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+var dsec=Math.floor((((dd%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+if(dday<=0&&dhour<=0&&dmin<=0&&dsec<=0){
+document.getElementById('count2').innerHTML=current;
+document.getElementById('count2').style.display="inline";
+document.getElementById('count2').style.width="390px";
+document.getElementById('dday').style.display="none";
+document.getElementById('dhour').style.display="none";
+document.getElementById('dmin').style.display="none";
+document.getElementById('dsec').style.display="none";
+document.getElementById('days').style.display="none";
+document.getElementById('hours').style.display="none";
+document.getElementById('minutes').style.display="none";
+document.getElementById('seconds').style.display="none";
+document.getElementById('spacer1').style.display="none";
+document.getElementById('spacer2').style.display="none";
+return;
+}
+else {
+document.getElementById('count2').style.display="none";
+document.getElementById('dday').innerHTML=dday;
+document.getElementById('dhour').innerHTML=dhour;
+document.getElementById('dmin').innerHTML=dmin;
+document.getElementById('dsec').innerHTML=dsec;
+setTimeout("countdown(theyear,themonth,theday,thehour,theminute)",1000);
+}
+}
+
+countdown(year,month,day,hour,minute);
+
+</script>
+<a href="../TheBook/index.html" title="Advance Pre-Order and Preview"><img src="../TheBook/sab1.jpg" width="200" ></a><br>
+  <tr><td align="center"><a href="../TheBook/index.html" title="Advance Pre-Order and Preview">Pre-Order now and get 15% off!</a>
+</table>
+
+<!--webbot bot="Include" i-checksum="3466" endspan --></font><hr  width="180" align="left">
+
+
+
+<!--webbot bot="Include" U-Include="../sitemeter.html" TAG="BODY" startspan -->
+
+
+<!-- Site Meter -->
+<script type="text/javascript" src="http://sm3.sitemeter.com/js/counter.js?site=sm3skeptic">
+</script>
+<noscript>
+<a href="http://sm3.sitemeter.com/stats.asp?site=sm3skeptic" target="_top">
+<img src="http://sm3.sitemeter.com/meter.asp?site=sm3skeptic" alt="Site Meter" border="0"/></a>
+</noscript>
+<!-- Copyright (c)2009 Site Meter -->
+
+<!--webbot bot="Include" i-checksum="24011" endspan --><!--webbot bot="Include" U-Include="../quantcast.html" TAG="BODY" startspan -->
+
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qacct="p-2aRLjJlrMJ4Ko";quantserve();</script>
+<noscript>
+<a href="http://www.quantcast.com/p-2aRLjJlrMJ4Ko" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-2aRLjJlrMJ4Ko.gif" style="display: none" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+<!-- End Quantcast tag -->
+
+
+<!--webbot bot="Include" i-checksum="38255" endspan --></font>
+</body></html>

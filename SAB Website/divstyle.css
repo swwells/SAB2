@@ -1,0 +1,53 @@
+#header {
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content {
+
+	position: absolute;
+	
+	width: 300px;
+	
+	height: 400px;
+ 
+	top: 10px;
+
+	left: 100px;
+
+	font-size: 12px;
+
+	color: #000001;
+
+	background-color: #FFFFFF;
+}
+
+#highlights {
+
+	position: absolute;
+	
+	width: 150px;
+	
+	height: 400px;
+
+	top: 100px;
+
+	right: 200px;
+
+	font-size: 12px;
+}
+
+
+	

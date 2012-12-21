@@ -1,0 +1,4 @@
+user-agent: *
+disallow: /images/
+disallow: /sym/
+disallow:/_private/

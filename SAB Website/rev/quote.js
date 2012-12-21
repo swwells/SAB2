@@ -1,0 +1,47 @@
+
+Quotes = new Array(
+
+"<span class=p>The Revelation of Jesus Christ, which God gave unto him, to shew unto his servants <i>things which must shortly come to pass.</i></span>--<a href='1.html#1' >Rev.1:1</a>",
+"<span class=p>The time is at hand.</span>--<a href='1.html#3' >Rev.1:3</a>",
+"<span class=i>I know the blasphemy of them which say they are Jews, and are not, but <I>are the synagogue of Satan.</i></span>--<a href='2.html#9' >Rev.2:9</a>",
+"<span class=a>These things saith the Son of God, who hath his eyes like unto a flame of fire, and his feet are like fine brass.</span>--<a href='2.html#18' >Rev.2:18</a>",
+"<span class=i>I will kill her children with death.</span>--<a href='2.html#23' >Rev.2:23</a>",
+"<span class=a>These things saith he that hath <i>the seven Spirits of God.</i></span>--<a href='3.html#1' >Rev.3:1</a>",
+"<span class=p>Behold, I come quickly.</span>--<a href='3.html#11' >Rev.3:11</a>",
+"<span class=a>I beheld, ... a Lamb as it had been slain, having seven horns and seven eyes, which are <I>the seven Spirits of God</I>.</span>--<a href='5.html#6' >Rev.5:6</a>",
+"<span class=v>And there went out another horse that was red: and power was given to him that sat thereon <I>to take peace from the earth, and that they should kill one another.</i></span>--<a href='6.html#4' >Rev.6:4</a>",
+"<span class=v>And to them it was given that they should not kill them, but that they should be tormented five months: and their torment was as the torment of a scorpion.</span>--<a href='9.html#5' >Rev.9:5</a>",
+"<span class=i>And in those days shall men seek death, and shall not find it; and shall desire to die, and death shall flee from them.</span>--<a href='9.html#6' >Rev.9:6</a>",
+"<span class=a>And they had tails like unto scorpions, and there were stings in their tails: and their power was to hurt men five months.</span>--<a href='9.html#10' >Rev.9:10</a>",
+"<span class=v>The four angels were loosed to slay the third part of men.</span>--<a href='9.html#15' >Rev.9:15</a>",
+"<span class=a>And I took the little book out of the angel's hand, and ate it up; and it was in my mouth sweet as honey: and as soon as I had eaten it, my belly was bitter.</span>--<a href='10.html#10' >Rev.10:10</a>",
+"<span class=i>The people ... shall see their dead bodies three days and an half, and shall not suffer their dead bodies to be put in graves. And <I>they that dwell upon the earth shall rejoice over them, and make merry, and shall send gifts one to another</I> because these two prophets tormented them that dwelt on the earth.</span>--<a href='11.html#9' >Rev.11:9-10</a>",
+"<span class=a>And there was war in heaven: Michael and his angels fought against the dragon; and the dragon fought and his angels.</span>--<a href='12.html#7' >Rev.12:7</a>",
+"<span class=i>Woe to the inhabiters of the earth and of the sea! for the devil is come down unto you.</span>--<a href='12.html#12' >Rev.12:12</a>",
+"<span class=w>No man could learn that song but the hundred and forty and four thousand, which were redeemed from the earth. These are they which were not defiled with women; for they are virgins.</span>--<a href='14.html#3' >Rev.14:3-4</a>",
+"<span class=s>She made all nations drink of the wine of the wrath of her fornication.</span>--<a href='14.html#8' >Rev.14:8</a>",
+"<span class=i>And the smoke of their torment ascendeth up for ever and ever.</span>--<a href='14.html#11' >Rev.14:11</a>",
+"<span class=v>The great winepress of the wrath of God ... was trodden without the city, and blood came out of the winepress, even unto the horse bridles.</span>--<a href='14.html#19' >Rev.14:19-20</a>",
+"<span class=v>The second angel poured out his vial upon the sea; and it became as the blood of a dead man: and every living soul died in the sea.</span>--<a href='16.html#3' >Rev.16:3</a>",
+"<span class=v>Thou hast given them blood to drink; for they are worthy.</span>--<a href='16.html#6' >Rev.16:6</a>",
+"<span class=v>The fifth angel poured out his vial upon the seat of the beast; and his kingdom was full of darkness; and they gnawed their tongues for pain.</span>--<a href='16.html#10' >Rev.16:10</a>",
+"<span class=s>The great whore that sitteth upon many waters: With whom the kings of the earth have committed fornication, and the inhabitants of the earth have been made drunk with <I>the wine of her fornication</I>.</span>--<a href='17.html#1' >Rev.17:1-2</a>",
+"<span class=v>And the ten horns which thou sawest upon the beast, these shall hate the whore, and shall make her desolate and naked, and shall <I>eat her flesh</I>, and burn her with fire.</span>--<a href='17.html#16' >Rev.17:16</a>",
+"<span class=s>All nations have drunk of the wine of the wrath of her fornication, and the kings of the earth have committed fornication with her, and the merchants of the earth are waxed rich through the abundance of her delicacies.</span>--<a href='18.html#3' >Rev.18:3</a>",
+"<span class=v>He was clothed with a vesture dipped in blood: and his name is called The Word of God.</span>--<a href='19.html#13' >Rev.19:13</a>",
+"<span class=v>And out of his mouth goeth a sharp sword,  ... he treadeth the winepress of the fierceness and wrath of Almighty God.</span>--<a href='19.html#15' >Rev.19:15</a>",
+"<span class=v>I saw an angel standing in the sun; and he cried with a loud voice, saying to all the fowls that fly in the midst of heaven, Come and gather yourselves together unto<I> the supper of the great God</I>; That ye may eat the flesh of kings, and the flesh of captains, and the flesh of mighty men.</span>--<a href='19.html#17' >Rev.19:17-18</a>",
+"<span class=v>And the remnant were slain with the sword of him that sat upon the horse, which sword proceeded out of his mouth: and all the fowls were filled with their flesh.</span>--<a href='19.html#21' >Rev.19:21</a>",
+"<span class=i>And whosoever was not found written in the book of life was cast into the lake of fire.</span>--<a href='20.html#15' >Rev.20:15</a>",
+"<span class=i>The fearful, and unbelieving ... shall have their part in the lake which burneth with fire and  brimstone.</span>--<a href='21.html#8' >Rev.21:8</a>",
+"<span class=p>Behold, I come quickly.</span>--<a href='22.html#7' >Rev.22:7</a>",
+"<span class=p>Behold, I come quickly.</span>--<a href='22.html#12' >Rev.22:12</a>",
+"<span class=a>If any man shall add unto these things, God shall add unto him the plagues that are written in this book.</span>--<a href='22.html#18' >Rev.22:18</a>",
+"<span class=a>And if any man shall take away from the words of the book of this prophecy, God shall take away his part out of the book of life.</span>--<a href='22.html#19' >Rev.22:19</a>",
+"<span class=p>Surely I come quickly.</span>--<a href='22.html#20' >Rev.22:20</a>",
+"It is between fifty and sixty years since I read the Apocalypse, and I then considered it merely the ravings of a maniac, no more worthy, nor capable of explanation than the incoherences of our own nightly dreams.... What has no meaning admits no explanation. -- Thomas Jefferson, to Alexander Smyth, January 17, 1825"
+);
+
+var x = Math.floor (Quotes.length * Math.random());
+
+document.write(Quotes[x]);
